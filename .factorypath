@@ -62,8 +62,8 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/hsqldb/hsqldb/2.7.3/hsqldb-2.7.3-jdk8.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/com/googlecode/log4jdbc/log4jdbc/1.2/log4jdbc-1.2.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/javax/servlet/jsp/javax.servlet.jsp-api/2.3.3/javax.servlet.jsp-api-2.3.3.jar" enabled="true" runInBatchMode="false"/>
@@ -79,6 +79,8 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/spring-core/5.3.37/spring-core-5.3.37.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/spring-jcl/5.3.37/spring-jcl-5.3.37.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/session/spring-session-jdbc/2.5.0/spring-session-jdbc-2.5.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/session/spring-session-core/2.5.0/spring-session-core-2.5.0.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="PLUGIN" id="net.harawata.mybatipse" enabled="false" runInBatchMode="false"/>
     <factorypathentry kind="PLUGIN" id="org.eclipse.jst.ws.annotations.core" enabled="false" runInBatchMode="false"/>
 </factorypath>

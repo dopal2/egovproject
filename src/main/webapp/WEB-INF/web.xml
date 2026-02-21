@@ -4,6 +4,20 @@
 		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
 	<display-name>egovframework.sht</display-name>
 	
+	<!-- 세션 필터 등록 - S -->
+    <filter>
+   		<filter-name>springSessionRepositoryFilter</filter-name>
+   	 	<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+	</filter>
+	<filter-mapping>
+    	<filter-name>springSessionRepositoryFilter</filter-name>
+    	<url-pattern>/*</url-pattern>
+    	<dispatcher>REQUEST</dispatcher>
+    	<dispatcher>ERROR</dispatcher>
+	</filter-mapping>
+	<!-- 세션 필터 등록 - E -->
+	
+	<!--
 	<filter>
         <filter-name>encodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -16,6 +30,25 @@
         <filter-name>encodingFilter</filter-name>
         <url-pattern>*.do</url-pattern>
     </filter-mapping>
+    -->
+    <!-- 한글 깨지는 증상 발생으로 인한 수 -->
+    <filter>
+	    <filter-name>encodingFilter</filter-name>
+	    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+	    <init-param>
+	        <param-name>encoding</param-name>
+	        <param-value>utf-8</param-value>
+	    </init-param>
+	    <init-param>
+	        <param-name>forceEncoding</param-name>
+	        <param-value>true</param-value>
+	    </init-param>
+	</filter>
+	
+	<filter-mapping>
+	    <filter-name>encodingFilter</filter-name>
+	    <url-pattern>/*</url-pattern>
+	</filter-mapping>
     
     <!--
 		Tomcat의 경우 allowCasualMultipartParsing="true" 추가

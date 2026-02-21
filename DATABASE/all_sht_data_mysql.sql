@@ -1,3 +1,6 @@
+SET NAMES utf8mb4;
+
+-- (이하 기존 insert 문들...)
 #아래순서로 테이블생성 및 기초데이터 입력 
 
 # ID Generation
